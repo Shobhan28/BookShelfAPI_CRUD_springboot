@@ -76,18 +76,18 @@ Project aim : This API helps to fatch data and also performed CRUD operations to
 Web requests and URLs which helps to perform Get/Post/Put/Delete [CRUD operations] --
 
 1. Create [Post] : 
-    -> 'localhost:7676/books/addbook', it helps to Create new Books dataset in our database.
+    -> 'localhost:8080/api/books/addbook', it helps to Create new Books dataset in our database.
     Note ~ If you will enter wrong URL or RequestBody, Than it will handle the exception and revert the error BAD_REQUEST.
 
 2. Retrieve [Get] : 
-    -> 'localhost:7676/books', it helps to retrieve datasets of books from our database.
-    -> 'localhost:7676/books/{id}', it is a Dynamic request, helps to retrieve dataset of a spacific book of the passed Id from our database.
+    -> 'localhost:8080/api/books', it helps to retrieve datasets of books from our database.
+    -> 'localhost:8080/api/books/{id}', it is a Dynamic request, helps to retrieve dataset of a spacific book of the passed Id from our database.
 
 3. Update [Put] :
-    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to update the already existing datasets in our database, if the dataset is not available in out database than the code will handle the exception and return the response error of 'NOT_FOUND'.
+    -> 'localhost:8080/api/books/{id}', it is also a Dynamic request, helps to update the already existing datasets in our database, if the dataset is not available in out database than the code will handle the exception and return the response error of 'NOT_FOUND'.
 
 4. Delete [Delete] :
-    -> 'localhost:7676/books/{id}', it is also a Dynamic request, helps to Delete the already existing datasets in our database, if the dataset is not available in out database than the code will handle the exception and return the response error of 'NO_CONTENT'.
+    -> 'localhost:8080/api/books/{id}', it is also a Dynamic request, helps to Delete the already existing datasets in our database, if the dataset is not available in out database than the code will handle the exception and return the response error of 'NO_CONTENT'.
 -----------------------------------------------------------------------------------------------
                                     Key Learnings:
  ### Tech Stacks :
